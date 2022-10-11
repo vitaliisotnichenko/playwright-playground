@@ -1,0 +1,65 @@
+Test scenarios:
+
+Preconditions:
+the customer is logged in to the app
+
+Scenario: Product form is opened after double-clicking on title value
+    Customer double clicks on any value in Title column
+    Product form is opened
+
+Scenario: Product form is opened after double-clicking on brand value
+    Customer double clicks on any value in Brand column
+    Product form is opened
+
+Scenario: Product form is opened after double-clicking on description value
+    Customer double clicks on any value in Brand column
+    Product form is opened
+
+Scenario: Stock value can be edited after double clicking on stock value
+    Customer double clicks on any value in Stock column
+    Stock value can be edited
+
+Scenario: Price value can be edited after double clicking on price value
+    Customer double clicks on any value in Price column
+    Stock value can be edited
+
+Scenario: Product form values are changed correctly
+    Customer double clicks on any value in Title column
+    Customer changes any value in the product form
+    Submit button should became active
+    Customer click Submit button
+    Product information is updated
+
+Scenario: Verify sorting the list by stock option
+    Customer click on Stock column title
+    Sorting by stock option is displayed
+
+Scenario: Verify cancel product form changes
+    Customer double clicks on any value in Title column
+    Customer changes any value in the product form
+    Customer click Cancel button
+    Product information is not updated
+
+Scenario: Verify sorting in asc oder
+
+Scenario: Verify sorting in desc order
+
+Scenario: Verify setting zero price for the item
+
+Scenario: Verify setting negative price for the item
+
+Scenario: Verify setting zero stock value for the item
+
+Scenario: Verify setting negative stock value for the item
+
+Scenario: Verify required fields on Product details overlay
+
+Scenario: Verify logout from the app
+
+Scenario: Setting string value to price field
+
+Scenario: Setting string value to stock field
+
+
+
+
